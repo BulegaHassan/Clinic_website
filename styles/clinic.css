@@ -395,7 +395,7 @@ footer span .social_icons {
 .quick_links {
 	float: right;
 }
-.quick_links a, .recent_posts a {
+.quick_links a, .recent_posts a,.about_us a {
 	font-weight: normal;
 }
 .recent_posts h5 {
@@ -567,7 +567,7 @@ footer span .social_icons {
 	}
 	.people_say article {
 		float: none;
-		width: 60%;
+		width: 80%;
 		margin-right: 0;
 		margin-left: 5em;
 		border-bottom: 4px solid white;
