@@ -217,8 +217,6 @@ form.example input[type=text] {
   form.example button:hover {
 	background: #0b7dda;
   }
- 
-  /* Clear floats */
   form.example::after {
 	content: "";
 	clear: both;
@@ -253,25 +251,7 @@ form.example input[type=text] {
 		color: hsl(118, 94%, 52%);
 		}
 }
-/* styles for section */
- section.intro {
-	width: 89%;
-	text-align: center;
-	margin: .5em 0 .5em .5em;
-	padding: .5em;
-	background-color: rgba(138, 100, 100, 0.103);
-}
-section.intro h2 {
-	margin: 0.5em;
-}
- #remove_bc {
-	background-color: #fff;
-}
 
-
-section a {
-	font-weight: normal;
-}
 /*styles for search button close to the footer*/
 .search form.example input[type=text] {
 	padding: .4167em;
@@ -305,7 +285,25 @@ section a {
   }
 
 
-/* the styles for the aside */
+/* styles for section */
+.intro {
+	width: 89%;
+	text-align: center;
+	margin: .5em 0 .5em .5em;
+	padding: .5em;
+	background-color: rgba(138, 100, 100, 0.103);
+}
+.intro h2 {
+	margin: 0.5em;
+}
+ #remove_bc {
+	background-color: #fff;
+}
+
+
+section a {
+	font-weight: normal;
+}
 .choose aside {
 	width: 27.8%;
 	height: 12.5em;
@@ -349,7 +347,6 @@ section a {
 .services ul {
 	list-style-type: none;
 }
-
 .people_say article {
 	width: 45%;
 	float: left;
@@ -359,6 +356,9 @@ section a {
 }
 .people_say article p {
 	padding: 0.3em;
+}
+.people_say h3 {
+	margin-top: 5em;
 }
 
 aside h4 {
