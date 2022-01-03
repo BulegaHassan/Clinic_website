@@ -123,7 +123,7 @@ a {
 	text-decoration: none;
 }
 a:link, a:visited {
-	color: #3104fa ;
+	color: #2f00fffb ;
 }
 a:hover, a:focus {
 	color: rgb(192, 42, 42) !important;
@@ -338,6 +338,9 @@ section a {
 	font-size: 130%;
 	color: black;
 }
+.corona aside img {
+	border-radius: 1006px;
+}
 .services aside img, .corona aside img {
 	padding: 0;
 	margin: 0;
@@ -381,7 +384,7 @@ footer {
 footer div {
 	float: left;
 	width: 25%;
-	margin: .5em .5em  0 .5em ;
+	margin: .5em .1em  0 .1em ;
 	padding: .5em .5em 0 .5em;
 }
 footer p,h4 {
@@ -389,11 +392,11 @@ footer p,h4 {
 	margin: 1em;                       
 	margin-right: 1%;                  
 }
-footer span .social_icons {
-	margin-left: 0.5em;
+footer  .social_icons {
+	margin: 0;
 } 
-.quick_links {
-	float: right;
+.recent_posts {
+	margin-left: -7em;
 }
 .quick_links a, .recent_posts a,.about_us a {
 	font-weight: normal;
