@@ -343,7 +343,7 @@ section a {
 	color: black;
 }
 .corona aside img {
-	border-radius: 500px;
+	border-radius: 50%;
 }
 .services aside img, .corona aside img {
 	padding: 0;
@@ -360,6 +360,15 @@ section a {
 	margin-right: 1%;
 	background-color: rgba(138, 100, 100, 0.103);
 	padding: 0.1em;
+}
+.people_say article img {
+	width: 15%;
+	border-radius: 125%;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .people_say article p {
 	padding: 0.3em;
