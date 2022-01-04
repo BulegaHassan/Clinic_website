@@ -317,6 +317,10 @@ section a {
 .choose aside a {
 	color: rgb(177, 173, 173);
 }
+.fontawe {
+	color:red;
+	font-size: 2.5em;
+}
 .services aside,.corona aside {
 	width: 30%;
 	height: 25em;
@@ -339,7 +343,7 @@ section a {
 	color: black;
 }
 .corona aside img {
-	border-radius: 1006px;
+	border-radius: 500px;
 }
 .services aside img, .corona aside img {
 	padding: 0;
@@ -378,7 +382,7 @@ footer {
 	color: rgb(224, 218, 218);                            
 	border-top: 2px solid #08f31c;
 	padding-top: .7em;
-	background-color: rgb(74, 139, 134);
+	background-color: rgb(32, 37, 37);
 	margin: 0;
 }
 footer div {
@@ -506,7 +510,9 @@ footer  .social_icons {
 		width: 22%;
 		margin: 0.5em;
 	}
-     
+     .recent_posts {
+		 margin-left: 0;
+	 }
    
 }
 
@@ -570,16 +576,21 @@ footer  .social_icons {
 	}
 	.people_say article {
 		float: none;
-		width: 80%;
-		margin-right: 0;
-		margin-left: 5em;
+		width: 100%;
+		padding: 0;
+		margin-right:2em ;
+		margin-left: 2em;
 		border-bottom: 4px solid white;
 	}
 	.corona, .services{
-        margin-left: 5em;
+        margin-left: 1em;
+		margin-right: 0;
+		
 	}
 	.corona aside, .services aside {
         padding-bottom: 0.5em;
+		width: 100%;
+		margin: 0;
 	}
     p {
         font-size: .875em;                     
