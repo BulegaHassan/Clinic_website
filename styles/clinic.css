@@ -199,6 +199,7 @@ form.example input[type=text] {
 	float: left;
 	width: 65%;
 	background: #f1f1f1;
+	margin-left: 0;
   }
   
   /* Style the submit button */
@@ -383,7 +384,38 @@ aside h4 {
 aside p {
 	text-align: center;
 }
-
+/*styles for the form of newsletter*/
+label {
+	float: left;
+    width: 10em;
+    text-align: right;
+}
+input, textarea {
+    width: 30em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+#submit {
+	width: 7em;
+	margin-left: 14em;
+	background-color: #2ef2d1;
+	border-radius: 6px;
+}
+fieldset {
+	width: 80%;
+    margin: 1em 0 1em 2em;
+    padding-top: .5em;
+}
+legend {
+    color: #931420;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+	font-size: 87.5%;
+	margin-left: .5em;
+}
 /* the styles for the footer */
 footer {
 	clear: both;
