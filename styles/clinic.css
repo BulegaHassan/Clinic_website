@@ -1,449 +1,607 @@
 /* type selectors */
+
 html {
-	background-image: -moz-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
-	background-image: -webkit-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
-	background-image: -o-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
-	background-image: linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
-}
-html {
-	background-image: url(../Images/pulse-trace-background.jpg);
-}
-body {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	width: 98%;                         
-	max-width: 1200px;                  
-	background-color: white;
-	margin: 15px auto;
-	padding: 15px;
-	border: 2px solid #2ef2d1;
-	border-radius: 10px;
-	box-shadow: 4px 4px rgb(35, 35, 92);
+    background-image: -moz-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+    background-image: -webkit-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+    background-image: -o-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+    background-image: linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
 }
 
+html {
+    background-image: url(../Images/pulse-trace-background.jpg);
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 98%;
+    max-width: 1200px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    border: 2px solid #2ef2d1;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(35, 35, 92);
+}
 
 
 /* the styles for the header */
+
 header {
-	width: 100%;                        
-	padding-bottom: 2em;
-	margin-left: 2em;
+    width: 100%;
+    padding-bottom: 2em;
+    margin-left: 2em;
 }
+
 header h2 {
-	font-size: 1.25em;                  
-	color: #2ef2d1;
-	text-shadow: .9px 1.2px 0.5px black;
-	margin-left: 10%;            
-	margin-bottom: .15em;
+    font-size: 1.25em;
+    color: #2ef2d1;
+    text-shadow: .9px 1.2px 0.5px black;
+    margin-left: 10%;
+    margin-bottom: .15em;
 }
+
 header h3 {
-	font-size: 1em; 
-	color: gray;               
-	font-style: italic;
-	margin-left: 10%;             
+    font-size: 1em;
+    color: gray;
+    font-style: italic;
+    margin-left: 10%;
 }
+
 header img {
-	width: 8.0808%;                     
-	max-width: 80px;                   
-	min-width: 40px;
-	float: left;
-	margin-left: 2%;               
+    width: 8.0808%;
+    max-width: 80px;
+    min-width: 40px;
+    float: left;
+    margin-left: 2%;
 }
+
 .contacts {
-	float: none;
+    float: none;
 }
+
 .contacts {
-	color: red;
+    color: red;
 }
+
 .clock {
-	color: black;
+    color: black;
 }
-.location, .phone {
-	clear: both;
-	float: left;
-	margin-left: 45%;
-	margin-top: -2em;
-	color:red;
-	font-size: 1.8em;
-}
+
+.location,
 .phone {
-	float: right;
-	margin-top: -1.9em;
-	margin-right: 21%;
+    clear: both;
+    float: left;
+    margin-left: 45%;
+    margin-top: -2em;
+    color: red;
+    font-size: 1.8em;
 }
-.location h5, .phone h5 {
-	margin-top: -2.9em;
-	margin-left: 2em;
-	padding-top: .9em;
-	padding-bottom: .5em;
-	font-size: 50%;
-	color: black;
-	font-weight: normal;
+
+.phone {
+    float: right;
+    margin-top: -1.9em;
+    margin-right: 21%;
 }
+
+.location h5,
 .phone h5 {
-	margin-left: 2.5em;
+    margin-top: -2.9em;
+    margin-left: 2em;
+    padding-top: .9em;
+    padding-bottom: .5em;
+    font-size: 50%;
+    color: black;
+    font-weight: normal;
 }
+
+.phone h5 {
+    margin-left: 2.5em;
+}
+
 .social_icons {
-	float: right;
-	margin-right: 5em;
+    float: right;
+    margin-right: 5em;
 }
+
 .social_icons a {
-	color: red;
+    color: red;
 }
 
 
 /*Generic styles for the main*/
-main,h1, h2, h3, p {
-	margin: 0;
-	padding: 0;
-}
-main {
-	margin-bottom: 1em;
-	padding: 2em;
-}
-main h1 {
-	font-size: 2.25em;                 
-	color: #2ef2d1;
-	text-shadow: 2px 3px 0 black;
-	margin-bottom: .5em;
-}
-main, section p {
-	font-size: .875em;                 
-	padding-bottom: .5em;
-	line-height: 130%;
-}
-li {
-	font-size: .875em; 
-}
-section {
-	clear: both;
-}
-a {
-	font-weight: bold;
-	text-decoration: none;
-}
-a:link, a:visited {
-	color: #2f00fffb ;
-}
-a:hover, a:focus {
-	color: rgb(192, 42, 42) !important;
-}
-/* the styles for the navigation menu - operation */
-#nav_menu {
-	margin-top: 1em;
-}
-#nav_menu ul {
-	width: 100%;                        
-	list-style-type: none;
-	position: relative;
-}
-#nav_menu ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-	z-index: 1;
-}
-#nav_menu ul ul li {
-	float: none;
-	position: relative;
-}
-#nav_menu ul ul li ul {
-	position: absolute;
-	left: 100%;
-	top: 0;
-}
-#nav_menu ul li.lastitem ul li ul {
-	position: absolute;
-	left: -100%;
-	top: 0;
-}
-#nav_menu ul li {
-	float: left;
-}
-#nav_menu ul li:hover > ul {
-	display: block;
-}
-#nav_menu > ul::after {
-	content: "";
-	clear: both;
-	display: block;
-}
-/* the styles for the navigation menu - formatting */
-#nav_menu ul {
-	margin: 0;
-	padding: 0;
-}
-#nav_menu ul li {
-	width: 10%;                         
-}
-#nav_menu ul li a {
-	text-align: center;
-	display: block;
-	padding: .7em 0;
-	background-color: hsl(138, 92%, 76%);
-}
-#nav_menu ul li a.current {
-	color: #f2972e !important;
-}
-#nav_menu ul li:hover ul {
-	width: 100%;
-}
-#nav_menu ul li:hover ul li:hover ul li {
-	width: 100%;
-}
-/*syles for search bar attached to nav bar*/
-form.example input[type=text] {
-	padding: .4167em;
-	font-size: 1.19em;
-	border: 1px solid grey;
-	float: left;
-	width: 65%;
-	background: #f1f1f1;
-  }
-  
-  /* Style the submit button */
-  form.example button {
-	float: left;
-	width: 20%;
-	padding: .4167em;
-	background: hsl(138, 92%, 76%);
-	color: white;
-	font-size: 1.19em;
-	border: 1px solid  hsl(138, 92%, 76%);
-	border-left: none; /* Prevent double borders */
-	cursor: pointer;
-  }
-  
-  form.example button:hover {
-	background: #0b7dda;
-  }
-  form.example::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  /* styles to animate h1*/
-  main h1 {
-	margin-left: 10%;
-	margin-top: -2em;
-	padding-top: 0;
-	color: blue;
-  -webkit-animation: moveright 3s ease-in-out 2s infinite alternate;
-		  animation: moveright 3s ease-in-out 2s infinite alternate;
-}
-@-webkit-keyframes moveright {
-	from {
-		margin-left: 5%;
-		color: rgb(40, 40, 175);
-		}
-	to {
-		margin-left: 60%;
-		color:hsl(118, 94%, 52%);
-		}
-}
-@keyframes moveright {
-	from {
-		margin-left: 5%;
-		color: rgb(40, 40, 175);
-		}
-	to {
-		margin-left: 60%;
-		color: hsl(118, 94%, 52%);
-		}
+
+main,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
 }
 
+main {
+    margin-bottom: 1em;
+    padding: 2em;
+}
+
+main h1 {
+    font-size: 2.25em;
+    color: #2ef2d1;
+    text-shadow: 2px 3px 0 black;
+    margin-bottom: .5em;
+}
+
+main,
+section p {
+    font-size: .875em;
+    padding-bottom: .5em;
+    line-height: 130%;
+}
+
+li {
+    font-size: .875em;
+}
+
+section {
+    clear: both;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #2f00fffb;
+}
+
+a:hover,
+a:focus {
+    color: rgb(192, 42, 42) !important;
+}
+
+
+/* the styles for the navigation menu - operation */
+
+#nav_menu {
+    margin-top: 1em;
+}
+
+#nav_menu ul {
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
+
+#nav_menu ul ul li {
+    float: none;
+    position: relative;
+}
+
+#nav_menu ul ul li ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#nav_menu ul li.lastitem ul li ul {
+    position: absolute;
+    left: -100%;
+    top: 0;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+#nav_menu ul li:hover>ul {
+    display: block;
+}
+
+#nav_menu>ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* the styles for the navigation menu - formatting */
+
+#nav_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li {
+    width: 10%;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    background-color: hsl(138, 92%, 76%);
+}
+
+#nav_menu ul li a.current {
+    color: #f2972e !important;
+}
+
+#nav_menu ul li:hover ul {
+    width: 100%;
+}
+
+#nav_menu ul li:hover ul li:hover ul li {
+    width: 100%;
+}
+
+
+/*syles for search bar attached to nav bar*/
+
+form.example input[type=text] {
+    padding: .4167em;
+    font-size: 1.19em;
+    border: 1px solid grey;
+    float: left;
+    width: 65%;
+    background: #f1f1f1;
+    margin-left: 0;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: .4167em;
+    background: hsl(138, 92%, 76%);
+    color: white;
+    font-size: 1.19em;
+    border: 1px solid hsl(138, 92%, 76%);
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* styles to animate h1*/
+
+main h1 {
+    margin-left: 10%;
+    margin-top: -2em;
+    padding-top: 0;
+    color: blue;
+    -webkit-animation: moveright 3s ease-in-out 2s infinite alternate;
+    animation: moveright 3s ease-in-out 2s infinite alternate;
+}
+
+@-webkit-keyframes moveright {
+    from {
+        margin-left: 5%;
+        color: rgb(40, 40, 175);
+    }
+    to {
+        margin-left: 60%;
+        color: hsl(118, 94%, 52%);
+    }
+}
+
+@keyframes moveright {
+    from {
+        margin-left: 5%;
+        color: rgb(40, 40, 175);
+    }
+    to {
+        margin-left: 60%;
+        color: hsl(118, 94%, 52%);
+    }
+}
+
+
 /*styles for search button close to the footer*/
+
 .search form.example input[type=text] {
-	padding: .4167em;
-	font-size: 1.5em;
-	border: 1px solid grey;
-	float: left;
-	width: 69.5%;
-	background: #f1f1f1;
-  }
-  .search form.example button {
-	float: left;
-	width: 20%;
-	padding: .4167em;
-	background: hsl(138, 92%, 76%);
-	color: white;
-	font-size: 1.5em;
-	border: 1px solid  hsl(138, 92%, 76%);
-	border-left: none; /* Prevent double borders */
-	cursor: pointer;
-  }
-  
- .search form.example button:hover {
-	background: #0b7dda;
-  }
- 
-  /* Clear floats */
-  .search form.example::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
+    padding: .4167em;
+    font-size: 1.5em;
+    border: 1px solid grey;
+    float: left;
+    width: 69.5%;
+    background: #f1f1f1;
+}
+
+.search form.example button {
+    float: left;
+    width: 20%;
+    padding: .4167em;
+    background: hsl(138, 92%, 76%);
+    color: white;
+    font-size: 1.5em;
+    border: 1px solid hsl(138, 92%, 76%);
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+.search form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+.search form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 /* styles for section */
+
 .intro {
-	width: 89%;
-	text-align: center;
-	margin: .5em 0 .5em .5em;
-	padding: .5em;
-	background-color: rgba(138, 100, 100, 0.103);
-}
-.intro h2 {
-	margin: 0.5em;
-}
- #remove_bc {
-	background-color: #fff;
+    width: 89%;
+    text-align: center;
+    margin: .5em 0 .5em .5em;
+    padding: .5em;
+    background-color: rgba(138, 100, 100, 0.103);
 }
 
+.intro h2 {
+    margin: 0.5em;
+}
+
+#remove_bc {
+    background-color: #fff;
+}
 
 section a {
-	font-weight: normal;
+    font-weight: normal;
 }
+
 .choose aside {
-	width: 27.8%;
-	height: 12.5em;
-	float: left;
-	border: 2px solid rgb(106, 136, 119);
-	color:  rgb(177, 173, 173);
-	border-radius: 10px;
-	margin: .5em;
-	padding: .5em;
+    width: 27.8%;
+    height: 12.5em;
+    float: left;
+    border: 2px solid rgb(106, 136, 119);
+    color: rgb(177, 173, 173);
+    border-radius: 10px;
+    margin: .5em;
+    padding: .5em;
 }
+
 .choose aside a {
-	color: rgb(177, 173, 173);
+    color: rgb(177, 173, 173);
 }
+
 .fontawe {
-	color:red;
-	font-size: 2.5em;
+    color: red;
+    font-size: 2.5em;
 }
-.services aside,.corona aside {
-	width: 30%;
-	height: 25em;
-	float: left;
-	border: .2px solid rgb(177, 173, 173);
-	color:  rgb(177, 173, 173);
-	margin: 0.2em .2em .2em 0;
-	padding: 0em;
+
+.services aside,
+.corona aside {
+    width: 30%;
+    height: 25em;
+    float: left;
+    border: .2px solid rgb(177, 173, 173);
+    color: rgb(177, 173, 173);
+    margin: 0.2em .2em .2em 0;
+    padding: 0em;
 }
+
 #image_rollovers li {
-	margin-left: -2.3em;
+    margin-left: -2.3em;
 }
-.services aside h4,.corona aside h4, .choose aside h4{
-  color: black;
-  font-size: 110%;
+
+.services aside h4,
+.corona aside h4,
+.choose aside h4 {
+    color: black;
+    font-size: 110%;
 }
+
 .corona aside a {
-	text-decoration: underline;
-	font-size: 130%;
-	color: black;
+    text-decoration: underline;
+    font-size: 130%;
+    color: black;
 }
+
 .corona aside img {
-	border-radius: 50%;
+    border-radius: 50%;
 }
-.services aside img, .corona aside img {
-	padding: 0;
-	margin: 0;
-	max-width: 100%;
-	min-width: 150px;
+
+.services aside img,
+.corona aside img {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    min-width: 150px;
 }
+
 .services ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
 .people_say article {
-	width: 45%;
-	float: left;
-	margin-right: 1%;
-	background-color: rgba(138, 100, 100, 0.103);
-	padding: 0.1em;
+    width: 45%;
+    float: left;
+    margin-right: 1%;
+    background-color: rgba(138, 100, 100, 0.103);
+    padding: 0.1em;
 }
+
 .people_say article img {
-	width: 15%;
-	border-radius: 125%;
+    width: 15%;
+    border-radius: 125%;
 }
+
 .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .people_say article p {
-	padding: 0.3em;
+    padding: 0.3em;
 }
+
 .people_say h3 {
-	margin-top: 5em;
+    margin-top: 5em;
 }
 
 aside h4 {
-	text-align: center;
+    text-align: center;
 }
+
 aside p {
-	text-align: center;
+    text-align: center;
 }
+
+
+/*styles for the form of newsletter*/
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+input,
+textarea {
+    width: 30em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#submit {
+    width: 7em;
+    margin-left: 14em;
+    background-color: #2ef2d1;
+    border-radius: 6px;
+}
+
+fieldset {
+    width: 80%;
+    margin: 1em 0 1em 2em;
+    padding-top: .5em;
+}
+
+legend {
+    color: #931420;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+span {
+    color: red;
+    font-size: 87.5%;
+    margin-left: .5em;
+}
+
 
 /* the styles for the footer */
+
 footer {
-	clear: both;
-	width: 100%; 
-	color: rgb(224, 218, 218);                            
-	border-top: 2px solid #08f31c;
-	padding-top: .7em;
-	background-color: rgb(32, 37, 37);
-	margin: 0;
+    clear: both;
+    width: 100%;
+    color: rgb(14, 13, 13);
+    border-top: 2px solid #08f31c;
+    padding-top: .7em;
+    background-color: rgb(224, 218, 218);
+    margin: 0;
 }
+
 footer div {
-	float: left;
-	width: 25%;
-	margin: .5em .1em  0 .1em ;
-	padding: .5em .5em 0 .5em;
+    float: left;
+    width: 25%;
+    margin: .5em .1em 0 .1em;
+    padding: .5em .5em 0 .5em;
 }
-footer p,h4 {
-	font-size: .75em; 
-	margin: 1em;                       
-	margin-right: 1%;                  
+
+footer p,
+h4 {
+    font-size: .75em;
+    margin: 1em;
+    margin-right: 1%;
 }
-footer  .social_icons {
-	margin: 0;
-} 
+
+footer .social_icons {
+    margin: 0;
+}
+
 .recent_posts {
-	margin-left: -7em;
+    margin-left: -7em;
 }
-.quick_links a, .recent_posts a,.about_us a {
-	font-weight: normal;
+
+.quick_links a,
+.recent_posts a,
+.about_us a {
+    font-weight: normal;
 }
+
 .recent_posts h5 {
-	font-weight: normal;
+    font-weight: normal;
 }
- footer #copyright {
-	 width: 100%;
-	float: none;
-	clear: both;
-	text-align: center;
+
+footer #copyright {
+    width: 100%;
+    float: none;
+    clear: both;
+    text-align: center;
 }
+
+
 /* hide the mobile menu initially */
+
 #mobile_menu {
-	display: none;
+    display: none;
 }
+
+
 /* media queries */
 
+
 /* tablet portrait to standard 960 */
+
 @media only screen and (max-width: 959px) {
     #nav_menu ul li a {
-        font-size: .875em;                      
+        font-size: .875em;
     }
     main h1 {
-        font-size: 1.5em;                       
+        font-size: 1.5em;
     }
     main h2 {
         font-size: 1.125em;
     }
-	
+    .fontawe {
+        color: red;
+        font-size: 2.5em;
+    }
 }
 
+
 /* mobile landscape to tablet portrait */
+
 @media only screen and (max-width: 767px) {
     #nav_menu {
         display: none;
@@ -452,190 +610,211 @@ footer  .social_icons {
         display: block;
     }
     .slicknav_menu {
-        background-color: hsl(138, 92%, 76%) !important;	
+        background-color: hsl(138, 92%, 76%) !important;
     }
     body {
-        width: 100%;                           
-        margin: 0.1em;                                                 
+        width: 100%;
+        margin: 0.1em;
     }
-	main h1 {
-		text-shadow: none;	
-	}
-	
-	header h2 {
-        font-size: 1.625em; 
-		                
+    main h1 {
+        text-shadow: none;
+    }
+    header h2 {
+        font-size: 1.625em;
         margin: .4em 0 .25em -1em;
     }
     header h3 {
         font-size: 1em;
-		text-align: center;                        
+        text-align: center;
         margin-left: -3em;
     }
     header img {
         float: none;
-		margin-left: 7em;
+        margin-left: 7em;
     }
-	.location, .phone {
-		width: 40%;
-		float: none;
-		display: none;
-	}
-    main {
-        width: 95.9596%;                     
+    .location,
+    .phone {
+        width: 40%;
         float: none;
-        margin-right: 2.0202%;                 
+        display: none;
+    }
+    main {
+        width: 95.9596%;
+        float: none;
+        margin-right: 2.0202%;
         padding-right: 0;
     }
-    header, footer p {
+    header,
+    footer p {
         text-align: center;
     }
-    footer p { margin-right: 0.1em; }
-  
-	.choose aside {
-	  width: 25%;
-	}
+    footer p {
+        margin-right: 0.1em;
+    }
+    .choose aside {
+        width: 25%;
+    }
+    .choose aside .fontawe {
+        color: red;
+        font-size: 2em;
+    }
     main img {
         float: none;
-        
         margin: 2%;
     }
-	aside p {
-		font-size: .9em;
-	}
-	.choose p {
-		font-size: .7em;
-	}
-	.people_say article p {
-     font-size: 1em;
-	}
-	aside img {
-		max-width: 28%;
-	}
-	.social_icons {
-		font-size: 75%;
-	  }
-	  footer div {
-		width: 22%;
-		margin: 0.5em;
-	}
-     .recent_posts {
-		 margin-left: 0;
-	 }
-   
+    aside p {
+        font-size: .9em;
+    }
+    .choose p {
+        font-size: .7em;
+    }
+    .people_say article p {
+        font-size: 1em;
+    }
+    aside img {
+        max-width: 28%;
+    }
+    .social_icons {
+        font-size: 75%;
+    }
+    footer div {
+        width: 20%;
+        margin: 0.5em;
+    }
+    .twitter {
+        margin-right: 2em;
+    }
+    .recent_posts {
+        margin-left: 0;
+    }
+    .appointment input,
+    textarea {
+        width: 65%;
+    }
 }
 
+
 /* mobile portrait to mobile landscape */
+
 @media only screen and (max-width: 479px) {
     header h2 {
-        font-size: 1.375em;                    
+        font-size: 1.375em;
     }
     header h3 {
-        font-size: .8125em;                    
+        font-size: .8125em;
     }
-	main,aside,section  {
-		padding: .5em;
-		font-size: .875em
-	}
-	
-	aside h4 {
-		text-align: center;
-	}
-	
-	.location img {
-		max-width: 5%;
-	}
-	.location {
-		font-size: .55em;
-	}
-	main h1, main h2 {
-        font-size: 1em;                       
+    main,
+    aside,
+    section {
+        padding: .5em;
+        font-size: .875em
     }
-	
+    aside h4 {
+        text-align: center;
+    }
+    .location img {
+        max-width: 5%;
+    }
+    .location {
+        font-size: .55em;
+    }
+    main h1,
+    main h2 {
+        font-size: 1em;
+    }
     main img {
         float: none;
-    
         margin: .5em;
     }
-   main h3 {
-        font-size: .9375em;                     
+    main h3 {
+        font-size: .9375em;
     }
-	.services, .corona aside {
-		margin: 2em;
-	}
-	
-	aside ul {
-		margin-top: 0;
-	margin-bottom: .5em;
-	}
-	aside li {
-		margin-left: 0;
-		padding-left: 0;
-		padding-bottom: 0;
-	}
-	aside p {
-		font-size: 1em;
-	}
-	.choose aside {
-		float: none;
-		font-size: 1.2em;
-		width: 50%;
-		text-align: center;
-		margin: 1em auto;
-	}
-	.people_say article {
-		float: none;
-		width: 100%;
-		padding: 0;
-		margin-right:2em ;
-		margin-left: 2em;
-		border-bottom: 4px solid white;
-	}
-	.corona, .services{
+    .services,
+    .corona aside {
+        margin: 2em;
+    }
+    aside ul {
+        margin-top: 0;
+        margin-bottom: .5em;
+    }
+    aside li {
+        margin-left: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    aside p {
+        font-size: 1em;
+    }
+    .choose aside {
+        float: none;
+        font-size: 1.2em;
+        width: 50%;
+        text-align: center;
+        margin: 1em auto;
+    }
+    .people_say article {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin-right: 2em;
+        margin-left: 2em;
+        border-bottom: 4px solid white;
+    }
+    .corona,
+    .services {
         margin-left: 1em;
-		margin-right: 0;
-		
-	}
-	.corona aside, .services aside {
+        margin-right: 0;
+    }
+    .corona aside,
+    .services aside {
         padding-bottom: 0.5em;
-		width: 100%;
-		margin: 0;
-	}
+        width: 100%;
+        margin: 0;
+    }
     p {
-        font-size: .875em;                     
+        font-size: .875em;
     }
-  
-	.choose p {
-		font-size: .65em;
-	}
+    .choose p {
+        font-size: .65em;
+    }
     footer p {
-        font-size: .6875em;                    
+        font-size: .6875em;
     }
-	.services aside, .corona aside {
-		float: none;
-		width: 80%;
-	}
-	.corona, .people_say h3,.intro h2 {
-		font-size: 120%;
-	}
-	.people_say h4, p {
-		font-size: 120%;
-	}
-	#image_rollovers h4 {
-		font-size: 140%;
-	}
-	.people_say article blockquote p {
-		font-size: 120%;
-	}
-	
-	.social_icons {
-	  font-size: 85%;
-	}
-	footer div {
-		float: none;
-		text-align: center;
-		width: 90%;
-		margin: 0.5em;
-	}
-     
+    .services aside,
+    .corona aside {
+        float: none;
+        width: 80%;
+    }
+    .corona,
+    .people_say h3,
+    .intro h2 {
+        font-size: 120%;
+    }
+    .people_say h4,
+    p {
+        font-size: 120%;
+    }
+    #image_rollovers h4 {
+        font-size: 140%;
+    }
+    .people_say article blockquote p {
+        font-size: 120%;
+    }
+    .social_icons {
+        font-size: 85%;
+    }
+    footer div {
+        float: none;
+        text-align: center;
+        width: 90%;
+        margin: 0.5em;
+    }
+    .about_us {
+        text-align: center;
+        width: 80%;
+        /* margin: 0 1em 0 1em;*/
+    }
+    .appointment #submit {
+        margin-left: 1em;
+    }
 }
