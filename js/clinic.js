@@ -1,7 +1,8 @@
 "use strict";
 $(document).ready(() => {
-     //For imagerollovers
+    // Datepicker
      $("#datepicker").datepicker();
+    //For imagerollovers
     $("#image_rollovers img").each( (index, img) => {
         const oldURL = img.src;      
         const newURL = img.id;       
